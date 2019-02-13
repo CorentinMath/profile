@@ -1,32 +1,33 @@
 body {
-  background-color: rgb(240,240,240);
-  color: #1a3263;
+  background-color: #dfe2e2;
+  color: #3c415e;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
 h1,h2 {
-  color: #f16821;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 h1 {
+  color: #1cb3c8;
   font-size: 30px;
 }
 
 h2 {
+  color: #738598;
   font-size: 24px;
 }
 
 h3 {
-  color: #1a3263;
+  color: #3c415e;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
 a {
-  color: #1a3263;
+  color: #3c415e;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   text-decoration: none;
@@ -68,7 +69,7 @@ a:hover {
 
 .card {
   margin : 30px;
-  background-color: #e8e2db;
+  background-color: white;
   border-radius: 3px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -109,11 +110,11 @@ table {
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #f16821;
+  background: #1cb3c8;
   transition: background 0.3s ease;
 }
 .btn-flat:hover {
-  background: #f16821;
+  background: #1cb3c8;
   color: white;
 }
 

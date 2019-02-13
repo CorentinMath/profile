@@ -68,7 +68,7 @@ a:hover {
 }
 
 .card {
-  margin : 30px;
+  margin : 20px;
   background-color: white;
   border-radius: 3px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow */
@@ -97,6 +97,10 @@ a:hover {
   padding: 0px 20px;
 }
 
+.list-no-point {
+  list-style: none;
+}
+
 
 tr td:last-child {
     padding-left: 20px;
@@ -120,4 +124,37 @@ table {
 
 .img-circle {
   border-radius: 50%;
+}
+
+#sidebar {
+  position: fixed;
+  width: 130px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color: #dfe2e2 ;
+  background-color: #3c415e;
+  font-size: 25px;
+}
+
+#sidebar a{
+  color: #dfe2e2;
+  font-size: 35px;
+}
+
+#sidebar a:hover {
+  color: #dfe2e2;
+}
+
+#sidebar ul {
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-bottom: 20px;
+}
+
+
+#page-content {
+  margin-left: 300px;
 }
